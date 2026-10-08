@@ -1,0 +1,15 @@
+{"record_id": "KIN1_WT__ligand_a", "value": 6.033, "target": "KIN1_WT", "ligand": "ligand_a", "assay": "biochemical"}
+{"record_id": "KIN1_WT__ligand_b", "value": 5.774, "target": "KIN1_WT", "ligand": "ligand_b", "assay": "biochemical"}
+{"record_id": "KIN1_WT__ligand_c", "value": 4.762, "target": "KIN1_WT", "ligand": "ligand_c", "assay": "biochemical"}
+{"record_id": "KIN1_M1__ligand_a", "value": 4.277, "target": "KIN1_M1", "ligand": "ligand_a", "assay": "biochemical"}
+{"record_id": "KIN1_M1__ligand_b", "value": 5.034, "target": "KIN1_M1", "ligand": "ligand_b", "assay": "biochemical"}
+{"record_id": "KIN1_M1__ligand_c", "value": 4.715, "target": "KIN1_M1", "ligand": "ligand_c", "assay": "biochemical"}
+{"record_id": "KIN1_M2__ligand_a", "value": 5.851, "target": "KIN1_M2", "ligand": "ligand_a", "assay": "biochemical"}
+{"record_id": "KIN1_M2__ligand_b", "value": 4.41, "target": "KIN1_M2", "ligand": "ligand_b", "assay": "biochemical"}
+{"record_id": "KIN1_M2__ligand_c", "value": 4.93, "target": "KIN1_M2", "ligand": "ligand_c", "assay": "biochemical"}
+{"record_id": "KIN2_WT__ligand_a", "value": 5.25, "target": "KIN2_WT", "ligand": "ligand_a", "assay": "biochemical"}
+{"record_id": "KIN2_WT__ligand_b", "value": 6.224, "target": "KIN2_WT", "ligand": "ligand_b", "assay": "biochemical"}
+{"record_id": "KIN2_WT__ligand_c", "value": 5.014, "target": "KIN2_WT", "ligand": "ligand_c", "assay": "biochemical"}
+{"record_id": "KIN2_M1__ligand_a", "value": 4.346, "target": "KIN2_M1", "ligand": "ligand_a", "assay": "biochemical"}
+{"record_id": "KIN2_M1__ligand_b", "value": 5.767, "target": "KIN2_M1", "ligand": "ligand_b", "assay": "biochemical"}
+{"record_id": "KIN2_M1__ligand_c", "value": 5.355, "target": "KIN2_M1", "ligand": "ligand_c", "assay": "biochemical"}

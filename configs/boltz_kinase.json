@@ -1,0 +1,70 @@
+{
+  "run_name": "boltz_kinase",
+  "out_dir": "runs",
+  "measurements": [
+    "examples/measurements.example.jsonl"
+  ],
+  "blob_dirs": [
+    "/path/to/your/blobs"
+  ],
+  "sample_dirs": [
+    "/path/to/your/blobs/sample1"
+  ],
+  "affinity_ckpt": "/path/to/boltz2_aff.ckpt",
+  "ranking_groups": [
+    {
+      "name": "targets_within_ligand",
+      "group_by": [
+        "ligand",
+        "assay"
+      ],
+      "vary": "target",
+      "weight": 36.0
+    },
+    {
+      "name": "ligands_within_target",
+      "group_by": [
+        "target",
+        "assay"
+      ],
+      "vary": "ligand",
+      "weight": 8.0
+    }
+  ],
+  "min_delta": 0.3,
+  "lambda_rank": 8.0,
+  "lambda_ranknet": 12.0,
+  "lambda_abs": 0.25,
+  "lambda_consistency": 3.0,
+  "consistency_target": 0.25,
+  "consistency_records_per_step": 2,
+  "balance": [
+    {
+      "by": "target",
+      "alpha": 1.0
+    },
+    {
+      "by": "ligand",
+      "alpha": 0.5,
+      "max": 6.0
+    }
+  ],
+  "cliff_alpha": 1.0,
+  "max_sample_weight": null,
+  "val_frac": 0.1,
+  "val_by": null,
+  "val_records": "/path/to/your/validation_record_ids.txt",
+  "adapter_hidden": 512,
+  "train_heads": true,
+  "lr": 1e-06,
+  "max_lr": 5e-06,
+  "warmup_steps": 60,
+  "weight_decay": 0.001,
+  "grad_clip": 0.5,
+  "groups_per_step": 2,
+  "records_per_group": 8,
+  "accum_steps": 4,
+  "max_epochs": 60,
+  "patience": 15,
+  "seed": 0
+}
